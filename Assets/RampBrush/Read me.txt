@@ -1,0 +1,27 @@
+Ramp Brush
+By Ian Deane
+
+Installation instructions:
+
+Open the Unity project you wish to use the RampBrush and import the package into your project.
+
+Quick start guide:
+
+Attach the RampBrush component to any Unity Terrain object either by dragging and dropping the script onto the terrain object or by selecting it through the Component/Scripts menu.
+
+Activate the brush by pressing the "Activate/Inactivate Brush" button.
+
+Press "ctrl alt" to set the start point of the ramp (you may need to jiggle the mouse while [ctrl][alt] is held down to get the brush to take).
+
+Press "ctrl shift" to set the end point (you may need to jiggle the mouse while [ctrl][shift] is held down to get the brush to take).
+
+The brush supports undo. Use [ctrl][z] to undo. The undo point is reset every time the brush parameters are tweeked.
+
+After each ramp the start point is set to the end point so that lines can be continued easily.
+
+Use the curved ramp feature to create curved paths/roads on your terrain
+
+==================
+Troubleshooting
+
+Sometimes after settings in the 'Set Resolution' dialog of the terrain menu have been set, Unity does not update the terrain collider. This can be fixed by briefly entering then exiting play mode.

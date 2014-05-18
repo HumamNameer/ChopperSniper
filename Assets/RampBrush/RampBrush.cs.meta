@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a7697697117519648bc6f505b0910c88
+labels:
+- terrain
+- ramp
+- brush
+- slope
+- sculpt
+- sculpting
+- script
+- rampbrush
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
